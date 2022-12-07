@@ -1,0 +1,27 @@
+
+.body { background: url(logo_home.jpg) no-repeat; 
+        background-size: 100%;
+    }
+
+.btn-sig{
+    position: absolute;
+    right: 2%;
+}
+.text-center{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+    margin-top: 25%;
+    color: rgb(226, 210, 210);
+}
+.form-floating{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 30%;
+}
+.sign-in{
+    color: aliceblue;
+    
+}
