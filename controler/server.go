@@ -12,8 +12,8 @@ func Server() {
 	mux.HandleFunc("/auth", Auth)
 	mux.HandleFunc("/apply", Home)
 
-	fileServer := http.FileServer(http.Dir("./ui/static/"))
-	mux.Handle("/static/", http.StripPrefix("/static", fileServer))
+	fs := http.FileServer(http.Dir("static/"))
+	mux.Handle("/static/", http.StripPrefix("/static/", fs))
 
 	http.ListenAndServe(":8080", mux)
 }

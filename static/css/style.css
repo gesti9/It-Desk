@@ -1,0 +1,74 @@
+
+.body { background: url(logo_home.jpg) no-repeat; 
+        background-size: 100%;
+    }
+
+.btn-sig{
+    position: absolute;
+    right: 2%;
+}
+.text-center{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    
+    margin-top: 25%;
+    color: rgb(226, 210, 210);
+}
+.form-floating{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    margin-top: 30%;
+}
+.sign-in{
+    color: aliceblue;
+    
+}
+img{
+
+    max-width:100% !important;
+
+    height:auto;
+
+  
+
+}
+.button-sign{
+    text-align: center;
+}
+.general-h1{
+    text-align: center;
+}
+.general-logo{
+    text-align: center;
+}
+ 
+  
+  .form {
+    max-width: 320px;
+    padding: 15px;
+    margin: 20px auto;
+    background-color: #fff;
+  }
+  
+  .input {
+    display: block;
+    width: 100%;
+    padding: 8px 10px;
+    margin-bottom: 10px;
+    
+    border: 1px solid #ccc;
+    
+    font-family: inherit;
+    font-size: 16px;
+  }
+  
+  
+  .btn:hover {
+    background-color: #14a20a;
+  }
+  .offcanvas.show:not(.hiding){
+    transform: none;
+    height: 100%;
+}
