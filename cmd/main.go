@@ -1,9 +1,10 @@
 package main
 
 import (
-	"workspace/controler"
+	controler "workspace"
 )
 
 func main() {
 	controler.Server()
+	// service.Bd()
 }

@@ -5,7 +5,7 @@ import (
 	"log"
 	"net/http"
 	"text/template"
-	"workspace/service"
+	"workspace/pkg/service"
 )
 
 type AuthNaP struct {
