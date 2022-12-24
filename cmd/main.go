@@ -1,10 +1,9 @@
 package main
 
 import (
-	service "workspace/pkg/repository"
+	"workspace/pkg/controler"
 )
 
 func main() {
-	// controler.Server()
-	service.DataBase()
+	controler.Server()
 }
