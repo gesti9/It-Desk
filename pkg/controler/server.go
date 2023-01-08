@@ -10,7 +10,8 @@ func Server() {
 	mux := http.NewServeMux()
 
 	mux.HandleFunc("/auth", Auth)
-	// mux.HandleFunc("/apply", Home)
+	mux.HandleFunc("/home", Home)
+	mux.HandleFunc("/welcome", Welcome)
 
 	fs := http.FileServer(http.Dir("../static/"))
 	mux.Handle("/static/", http.StripPrefix("/static/", fs))
